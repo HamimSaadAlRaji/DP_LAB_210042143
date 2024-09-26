@@ -16,10 +16,6 @@ public class RideSharingApp {
 
         luxuryRide.completeTrip();
 
-
-        Payment payment = new PayPalPayment();
-        rider.makePayment(payment, luxuryRide.fare);
-
         Notifications notificationService = new SMSNotification();
         notificationService.sendNotification("Your ride has been completed.");
     }
