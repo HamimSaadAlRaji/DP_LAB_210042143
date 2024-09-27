@@ -1,5 +1,5 @@
 public class PaymentProcess {
-    public void ProcessPayment(float amount,Ipayment payment){
-        payment.pay(amount);
+    public double ProcessPayment(double amount,Ipayment payment){
+        return payment.pay(amount);
     }
 }

@@ -1,3 +1,3 @@
 public interface Ipayment {
-    public void pay(float amount);
+    public double pay(double amount);
 }
